@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  font-family: "Epilogue",
+    serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+nav ul a{
+  text-decoration: none;
+  color: black;
+}
+nav ul li{
+  padding-left: 1rem;
+}
+.list-item-1 , .list-item-2{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.register-section ul{
+  display: flex;
+  list-style: none;
+}
+.register-section ul li{
+  padding-left: 1rem;
+}
+.register-section ul a{
+  text-decoration: none;
+  color: black;
+}
