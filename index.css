@@ -14,6 +14,7 @@ header{
   align-items: center;
   padding: 1rem 0.8rem 1rem 1rem;
   gap: 2rem;
+  
 }
 .logo{
   flex: 1/2;
@@ -61,6 +62,9 @@ nav ul li{
   border-radius: 8px;
   padding: 8px;
 }
+.harmburger-menu{
+  display: none;
+}
 main{
   display: flex;
   justify-content: space-between;
@@ -91,6 +95,9 @@ main{
   height: 100%;
   object-fit: cover;
 }
+.hero-image-mobile{
+  display: none;
+}
 .learn-more_btn{
   background-color: black;
   color: white;
@@ -103,4 +110,104 @@ main{
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+@media (max-width : 973px){
+  .learn-more_btn{
+    margin-bottom: 2rem;
+  }
+  .hero-description{
+    margin-bottom: 1.5rem;
+  }
+  .hero-heading{
+    margin-bottom: 2rem;
+  }
+
+}
+@media(max-width : 375px){
+  
+  /*.nav-links{
+    display: none;
+  }
+  .register-section{
+    display: none;
+  }
+  .harmburger-menu{
+    display: flex;
+    
+  }
+  header{
+    /*justify-content: center;
+    background-color: aqua;
+    width: 100vw;
+  }
+  main{
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-section{
+    order: 2;
+  }
+  .hero-image{
+    display: none;
+  }
+  .hero-image-mobile{
+    display: flex;
+  }
+  .hero-image-mobile img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  */
+  
+}
+
+@media(max-width : 425px){
+  header{
+    background-color: aqua;
+  }
+  .nav-links{
+    display: none;
+  }
+  .register-section{
+    display: none;
+  }
+  .harmburger-menu{
+    display: flex;
+  }
+  main{
+    flex-direction: column-reverse;
+    width: 100vw;
+    padding: 0;
+    gap: 0;
+  }
+  .hero-section{
+    padding-top: 0;
+    max-width: 420px;
+    align-self: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero-image-mobile{
+    display: flex;
+  }
+  .hero-image-mobile img{
+    width: 100%;
+  }
+  .hero-image{
+    display: none;
+  }
+  .client-section{
+    align-self: center;
+    max-width: 10px;
+  }
+  .hero-heading{
+    font-size: 40px;
+  }
+
 }
