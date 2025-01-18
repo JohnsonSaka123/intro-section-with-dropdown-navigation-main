@@ -109,12 +109,11 @@ main{
   margin-bottom: 5rem;
 }
 .client-section{
+  /*max-width: 300px;*/
   align-self: center;
   display: flex;
-  gap: 1rem;
   justify-content: center;
-  align-items: center;
-  overflow-x: none;
+  gap: 5px;
 }
 
 @media (max-width : 973px){
@@ -173,6 +172,9 @@ main{
 }
 
 @media(max-width : 425px){
+  body{
+    overflow-x: none;
+  }
   header{
     background-color: aqua;
   }
@@ -195,14 +197,15 @@ main{
     padding-top: 1rem;
     max-width: 420px;
     align-self: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .hero-image-mobile{
     display: flex;
   }
   .hero-image-mobile img{
     width: 100%;
+    padding-top: 1rem;
   }
   .hero-image{
     display: none;
@@ -221,7 +224,10 @@ main{
    text-align: center;
   }
   .client-section{
-    margin: 0 auto;
+    
+  }
+  .client-section img{
+    display: block;
   }
 
 }
