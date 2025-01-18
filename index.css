@@ -176,7 +176,6 @@ main{
     overflow-x: none;
   }
   header{
-    position: sticky;
     width: 100vw;
   }
   .nav-links{
