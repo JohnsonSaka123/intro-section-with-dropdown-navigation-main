@@ -176,7 +176,8 @@ main{
     overflow-x: none;
   }
   header{
-    position: fixed;
+    position: sticky;
+    width: 100vw;
   }
   .nav-links{
     display: none;
@@ -192,6 +193,7 @@ main{
     width: 100vw;
     padding: 0;
     gap: 0;
+    overflow : none;
   }
   .hero-section{
     padding-top: 1rem;
