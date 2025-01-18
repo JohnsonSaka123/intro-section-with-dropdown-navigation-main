@@ -76,6 +76,9 @@ main{
   flex: 1;
   align-self: baseline;
   padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 .hero-heading{
@@ -106,10 +109,12 @@ main{
   margin-bottom: 5rem;
 }
 .client-section{
-  align-items: flex-end;
+  align-self: center;
   display: flex;
-  align-items: center;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  overflow-x: none;
 }
 
 @media (max-width : 973px){
@@ -187,7 +192,7 @@ main{
     gap: 0;
   }
   .hero-section{
-    padding-top: 0;
+    padding-top: 1rem;
     max-width: 420px;
     align-self: center;
     padding-left: 1rem;
@@ -207,7 +212,16 @@ main{
     max-width: 10px;
   }
   .hero-heading{
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .hero-description{
+   font-size: 1rem;
+   text-align: center;
+  }
+  .client-section{
+    margin: 0 auto;
   }
 
 }
