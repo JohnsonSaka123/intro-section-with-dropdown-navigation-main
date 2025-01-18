@@ -176,7 +176,7 @@ main{
     overflow-x: none;
   }
   header{
-    background-color: aqua;
+    position: fixed;
   }
   .nav-links{
     display: none;
@@ -223,8 +223,8 @@ main{
    font-size: 1rem;
    text-align: center;
   }
-  .client-section{
-    
+  .learn-more_btn{
+    padding: 0.8rem 0.7rem;
   }
   .client-section img{
     display: block;
