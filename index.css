@@ -214,6 +214,7 @@ main{
   .client-section{
     align-self: center;
     max-width: 10px;
+    gap: 10px;
   }
   .hero-heading{
     font-size: 30px;
@@ -229,6 +230,8 @@ main{
   }
   .client-section img{
     display: block;
+    width: 80px;
+    height: 20px;
   }
 
 }
